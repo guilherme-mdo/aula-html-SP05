@@ -1,0 +1,37 @@
+body {
+    background-color: darkgray;
+
+}
+
+h1 {
+    background-color: rgb(100, 89, 74);
+    color: aqua;
+    border: 3px solid black;
+}
+
+h4 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: yellow;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h5 {
+    color: crimson;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h6 {
+
+    color: olivedrab;
+    background-color: yellow;
+    border: 3px solid crimson;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 50px;
+    margin: 60px;
+
+
+
+}
