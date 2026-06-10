@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Lâmpada</title>
+</head>
+<body>
+    <!-- Utilizando o JavaScript para alterar atributos em HTML -->
+    <h1>Exemplo de atributo alterado com JavaScript</h1>
+
+    <img id="lampada" src="lampoff.gif" width="100" height="180">
+
+    <br>
+    <button onclick="interruptoresLampada(1)">Ligar lâmpada</button>
+    <button onclick="interruptoresLampada(0)">Apagar lâmpada</button>
+
+    <script>
+    function interruptoresLampada(estado) {
+    var imagemLampada;
+    if (estado == 0) {
+    imagemLampada = "lampoff.gif"
+  } else {
+    imagemLampada = "lampon.gif"
+  }
+  document.getElementById('lampada').src = imagemLampada;
+}
+</script>
+
+
+</body>
+</html>
